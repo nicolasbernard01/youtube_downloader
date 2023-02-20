@@ -3,3 +3,5 @@ Django
 pytube
 sqlparse
 tzdata
+gunicorn
+whitenoise
