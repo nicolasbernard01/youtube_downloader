@@ -5,7 +5,7 @@ import os
 
 def index(request):
 
-    return render(request, 'downloader\\index.html', None)
+    return render(request, 'downloader/index.html', None)
 
 def video_downloader(request):
 
@@ -37,7 +37,7 @@ def video_downloader(request):
 
             redirect('video_downloader.html')
 
-    return render(request, 'downloader\\video_downloader.html', None)
+    return render(request, 'downloader/video_downloader.html', None)
 
         
 def audio_downloader(request):
@@ -70,6 +70,6 @@ def audio_downloader(request):
 
         redirect('audio_downloader.html')
 
-    return render(request, 'downloader\\audio_downloader.html', None)
+    return render(request, 'downloader/audio_downloader.html', None)
 
    
